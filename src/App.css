@@ -8,9 +8,13 @@ body{
     background-position: center top;
 
 }
+.mainHeading{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .heading{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    height: 100px;
+    box-shadow: 5px,5px,5px,5px,grey;
 }

@@ -12,10 +12,12 @@ function App() {
     date: "26 January",
     time: "At 10 am",
     palace: "Smart Venue",
+    greeting:"--Thank you--",
   };
   return (
     <div className="mainHeading">
     <div className="heading">
+      
       <Demo heading={heading}/>
     </div>
     </div>

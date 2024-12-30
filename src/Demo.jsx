@@ -2,7 +2,7 @@
 import "./demo.css"
 
 function Demo(props) {
-    const {topic, invite, name1, and, name2, day, date, time, palace}= props.heading;
+    const {topic, invite, name1, and, name2, day, date, time, palace, greeting}= props.heading;
     
 
   return (
@@ -12,15 +12,18 @@ function Demo(props) {
     <h1>{topic}</h1>
     </div>
     <div className="invite">{invite}</div>
+    <div className="name">
     <h2>{name1}</h2>
     <div>{and}</div>
     <h2>{name2}</h2>
+    </div>
     <div className="time">
       <div>{day}</div>
       <div>{date}</div>
       <div>{time}</div>
     </div><br/>
-    <div>{palace}</div>
+    <div className="palace">{palace}</div><br/>
+    <div className="greeting">{greeting}</div>
   </div>
 
   )
