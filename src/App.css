@@ -1,5 +1,16 @@
-*{
+body{
     margin: 0;
     padding: 0;
+    background-image: url(../public/image/background\ of\ wedding.jpg);
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: center top;
 
+}
+.heading{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
